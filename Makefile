@@ -31,7 +31,7 @@ GO_FLAGS=-ldflags $(GO_X_FLAGS)
 
 # cache downloaded file
 CACHE_PATH=build/cache
-DOWNLOAD_URL=https://chaosblade.oss-cn-hangzhou.aliyuncs.com/agent/github/${BLADE_VERSION}
+DOWNLOAD_URL=https://cloud-image.shuiditech.com/itest/chaosblade/${BLADE_VERSION}
 CHAOSBLADE_FILE=chaosblade-${BLADE_VERSION}-linux-amd64.tar.gz
 CHAOSBLADE_UNZIP_DIR=$(CACHE_PATH)/chaosblade-${BLADE_VERSION}
 CHAOSBLADE_PATH=$(CACHE_PATH)/chaosblade
